@@ -1,0 +1,33 @@
+/*var lineEdit_FirstNumber = document.getElementById('lineEdit_FirstNumber');
+var lineEdit_SecondNumber = document.getElementById('lineEdit_SecondNumber');
+var lineEdit_Result = document.getElementById('lineEdit_Result');
+const pushButton_Soma = document.getElementById('pushButton_Soma');
+const pushButton_Subtrai = document.getElementById('pushButton_Subtrai');
+const pushButton_Limpa = document.getElementById('pushButton_Limpa');
+
+
+function somar() {
+    const number1 = lineEdit_FirstNumber.value;
+    const number2 = lineEdit_SecondNumber.value;
+
+    var ope = parseFloat(number1) + parseFloat(number2);
+    lineEdit_Result.value = ope;
+}
+
+function subtrair() {
+    const number1 = lineEdit_FirstNumber.value;
+    const number2 = lineEdit_SecondNumber.value;
+
+    var ope = parseFloat(number1) - parseFloat(number2);
+    lineEdit_Result.value = ope;
+}
+
+function limpar() {
+    lineEdit_FirstNumber.value = "";
+    lineEdit_SecondNumber.value = "";
+    lineEdit_Result.value = "";
+}
+
+pushButton_Soma.addEventListener("click", somar);
+pushButton_Subtrai.addEventListener("click", subtrair);
+pushButton_Limpa.addEventListener("click", limpar);*/
